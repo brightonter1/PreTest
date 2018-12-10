@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Menu">
 
-    <FrameLayout
-        android:id="@+id/main_view"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
-    </FrameLayout>
-
+    <ListView
+        android:id="@+id/menu_list"
+        android:layout_width="283dp"
+        android:layout_height="375dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
